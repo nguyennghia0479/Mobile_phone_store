@@ -1,0 +1,19 @@
+.card-img-top {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.product:hover {
+	transform: scale(1.15);
+}
+
+.product {
+	transition: transform .4s;
+}
+
+.card-title a {
+	text-decoration: none;
+	color: black;
+}

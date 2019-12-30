@@ -1,0 +1,52 @@
+.carousel-inner>.carousel-item>img {
+	width: 70%;
+	margin-left: 20%;
+}
+
+.attribute-item {
+	display: flex;
+	font-size: 13px;
+	padding: 12px 0;
+	border-bottom: 1px solid #ececec;
+}
+
+.py {
+	padding-top: 15px !important;
+	padding-bottom: 1px !important;
+}
+
+.mx {
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+}
+
+.w40 {
+	width: 40%;
+}
+
+.w60 {
+	width: 60%;
+}
+
+.ml10 {
+	margin-left: 10px !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: no-repeat 50%/100% 100%;
+}
+
+.carousel-control-next-icon:after {
+	content: '>';
+	font-size: 50px;
+	color: rgb(117, 113, 113);
+}
+
+.carousel-control-prev-icon:after {
+	content: '<';
+	font-size: 50px;
+	color: rgb(117, 113, 113);
+}
